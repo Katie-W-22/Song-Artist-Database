@@ -11,7 +11,7 @@ async function populateElements(){
     const containerDiv = document.getElementById('song-container');
     const songs = await getSongs();
     console.log(songs)
-    for(let i=0; i < songs.data.length; i++){
+    for(let i=0; i < songs.length; i++){
         newSongDiv = document.createElement('div');
         newnameP = document.createElement('h3');
         newnameP.innerText = songs.data[i].name;
