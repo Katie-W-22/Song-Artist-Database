@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+    <diagram id="WC8W-eTnvqfsFaLgwSHB" name="Page-1">
+        <mxGraphModel dx="776" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;entryX=0.485;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="SPRINT 3&lt;br&gt;Functions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;ul style=&quot;padding: 0px; margin: 0px; list-style-type: none; font-family: Roboto, arial, sans, sans-serif; font-size: medium;&quot; class=&quot;c4 lst-kix_3uciqo9r83ic-1 start&quot;&gt;&lt;li style=&quot;padding-top: 12pt; padding-bottom: 12pt; padding-left: 0pt; font-size: 11pt; font-family: Arial; margin-left: 72pt; line-height: 1.15;&quot; class=&quot;c7 li-bullet-0&quot;&gt;Create tables and seed; resetDatabase()&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="150" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="GitHub&lt;br&gt;&lt;br&gt;Add Sprint 3 as a milestone&lt;br&gt;with issues" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="40" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;ul style=&quot;padding: 0px; margin: 0px; list-style-type: none; font-family: Roboto, arial, sans, sans-serif; font-size: medium;&quot; class=&quot;c4 lst-kix_3uciqo9r83ic-1 start&quot;&gt;&lt;li style=&quot;padding-top: 12pt; padding-bottom: 12pt; padding-left: 0pt; font-size: 11pt; font-family: Arial; margin-left: 72pt; line-height: 1.15;&quot; class=&quot;c7 li-bullet-0&quot;&gt;getSongs()&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="250" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;ul style=&quot;padding: 0px; margin: 0px; list-style-type: none; font-family: Roboto, arial, sans, sans-serif; font-size: medium;&quot; class=&quot;c4 lst-kix_3uciqo9r83ic-1 start&quot;&gt;&lt;li style=&quot;padding-top: 12pt; padding-bottom: 12pt; padding-left: 0pt; font-size: 11pt; font-family: Arial; margin-left: 72pt; line-height: 1.15;&quot; class=&quot;c7 li-bullet-0&quot;&gt;getSongbyID&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="350" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="11">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="80" as="sourcePoint"/>
+                        <mxPoint x="410" y="30" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;ul style=&quot;padding: 0px; margin: 0px; list-style-type: none; font-family: Roboto, arial, sans, sans-serif; font-size: medium;&quot; class=&quot;c4 lst-kix_3uciqo9r83ic-1 start&quot;&gt;&lt;li style=&quot;padding-top: 12pt; padding-bottom: 12pt; padding-left: 0pt; font-size: 11pt; font-family: Arial; margin-left: 72pt; line-height: 1.15;&quot; class=&quot;c7 li-bullet-0&quot;&gt;updateSongbyID&lt;/li&gt;&lt;li style=&quot;padding-top: 12pt; padding-bottom: 12pt; padding-left: 0pt; font-size: 11pt; font-family: Arial; margin-left: 72pt; line-height: 1.15;&quot; class=&quot;c7 li-bullet-0&quot;&gt;song_title, release_date&lt;/li&gt;&lt;li style=&quot;padding-top: 12pt; padding-bottom: 12pt; padding-left: 0pt; font-size: 11pt; font-family: Arial; margin-left: 72pt; line-height: 1.15;&quot; class=&quot;c7 li-bullet-0&quot;&gt;song_id&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="450" width="225" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;ul style=&quot;padding: 0px; margin: 0px; list-style-type: none; font-family: Roboto, arial, sans, sans-serif; font-size: medium;&quot; class=&quot;c4 lst-kix_3uciqo9r83ic-1 start&quot;&gt;&lt;li style=&quot;padding-top: 12pt; padding-bottom: 12pt; padding-left: 0pt; font-size: 11pt; font-family: Arial; margin-left: 72pt; line-height: 1.15;&quot; class=&quot;c7 li-bullet-0&quot;&gt;createSong()&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="630" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;ul style=&quot;padding: 0px; margin: 0px; list-style-type: none; font-family: Roboto, arial, sans, sans-serif; font-size: medium;&quot; class=&quot;c4 lst-kix_3uciqo9r83ic-1 start&quot;&gt;&lt;li style=&quot;padding-top: 12pt; padding-bottom: 12pt; padding-left: 0pt; font-size: 11pt; font-family: Arial; margin-left: 72pt; line-height: 1.15;&quot; class=&quot;c7 li-bullet-0&quot;&gt;deleteSongbyId()&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="770" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="getArtists" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="255" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="getArtistbyId" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="350" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="updateArtistbyId" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="450" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="createArtist" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="635" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="deleteArtistbyId" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="780" width="120" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
